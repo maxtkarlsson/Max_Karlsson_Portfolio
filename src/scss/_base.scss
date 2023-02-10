@@ -5,12 +5,9 @@
 $desktop: 768px;
 
 //Colors
-/*
-$gblack: #0a0908;
-$gblueblack: #22333b;
-$ggrey: #f2f4f3;
-$ggreen: #c2e812;
-*/
+
+$bg-black: #001219;
+$main-green: #94d2bd;
 
 /* Resets */
 * {
@@ -23,9 +20,10 @@ html {
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  background-color: $bg-black;
 }
 main {
-  width: 100%;
+  //width: 100%;
 }
 
 /* Mixins */
